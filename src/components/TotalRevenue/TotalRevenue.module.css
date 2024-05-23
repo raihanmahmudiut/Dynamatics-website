@@ -1,0 +1,14 @@
+.draw {
+	animation: draw 1.5s linear forwards;
+	transform-origin: center bottom;
+	stroke: url(#paint0_linear_612_10891); /* Use the linear gradient as stroke color */
+	fill: url(#paint0_linear_612_10891); /* Use the linear gradient as fill color */
+	transform: scaleY(0);
+	stroke-width: 2px;
+}
+
+@keyframes draw {
+	to {
+		transform: scaleY(1);
+	}
+}

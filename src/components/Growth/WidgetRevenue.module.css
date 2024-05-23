@@ -1,0 +1,14 @@
+/* bar.module.css */
+
+@keyframes decreaseTransform {
+	from {
+		transform: translateY(60px); /* Initial value */
+	}
+	to {
+		transform: translateY(1px); /* Final value */
+	}
+}
+
+.myGroup {
+	animation: decreaseTransform 2s linear forwards; /* Adjust duration (5s) as needed */
+}

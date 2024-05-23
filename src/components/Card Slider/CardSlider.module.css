@@ -1,0 +1,23 @@
+.bars {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+  }
+  
+  .bar {
+    border: none;
+    width: 45px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .bar:focus {
+    outline: none;
+  }
+  
+  .bar.active {
+    background: #3A7DFF;
+  }

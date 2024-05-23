@@ -1,0 +1,22 @@
+.draw {
+	animation: draw 1.5s linear forwards;
+	transform-origin: center bottom;
+	stroke: #3a7dff;
+	fill: #3a7dff;
+	transform: scaleY(0);
+	stroke-width: 2px;
+}
+.drawlight {
+	animation: draw 1.5s linear forwards;
+	transform-origin: center bottom;
+	stroke: #ecf8ff;
+	fill: #ecf8ff;
+	transform: scaleY(0);
+	stroke-width: 2px;
+}
+
+@keyframes draw {
+	to {
+		transform: scaleY(1);
+	}
+}
